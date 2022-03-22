@@ -23,7 +23,7 @@ public class PrimeNumberTest {
 		{
 			return false;
 		}
-		for(double i=2;i<Math.pow(number, 1.0/2); i++)
+		for(double i=2;i<=Math.pow(number, 1.0/2); ++i)
 		{
 			if(number%i==0)
 			{
